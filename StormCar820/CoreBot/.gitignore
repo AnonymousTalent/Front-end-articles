@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+venv/
+env/
+
+# Secrets and credentials
+credentials.json
+*.pem
+*.key
+.env
+
+# IDE and OS specific
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
