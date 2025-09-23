@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# Log and Report files
+logs/
+reports/
+
+# Local configuration
+.env
+core/secret.key

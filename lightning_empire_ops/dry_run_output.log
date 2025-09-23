@@ -1,0 +1,9 @@
+2025-09-23 13:45:47,099 - INFO - [main] - Initializing Bot Manager...
+2025-09-23 13:45:47,106 - INFO - [monitor] - 成功載入 22 位武將 (Bots)。
+2025-09-23 13:45:47,106 - INFO - [main] - Bot Manager initialized.
+2025-09-23 13:45:47,106 - INFO - [main] - Initializing Algorithm Executor...
+2025-09-23 13:45:47,106 - ERROR - [core_algo] - 密鑰檔案找不到: core/secret.key
+2025-09-23 13:45:47,107 - INFO - [main] - Algorithm Executor initialized.
+2025-09-23 13:45:47,107 - WARNING - [main] - 🔥 系統處於【試運行 Dry Run】模式，將不會執行真實交易或派單。🔥
+2025-09-23 13:45:47,107 - ERROR - [main] - ❌ 無法初始化核心演算法，系統中止。
+成功載入 22 位武將 (Bots)。

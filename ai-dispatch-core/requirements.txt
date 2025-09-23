@@ -1,0 +1,4 @@
+pandas
+Flask
+python-dotenv
+python-telegram-bot
