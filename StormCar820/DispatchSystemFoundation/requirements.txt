@@ -1,0 +1,14 @@
+# Core libraries for the async dispatch engine
+aiohttp
+python-telegram-bot
+retry
+cryptography
+aiofiles
+
+# Optional but recommended for data handling
+pandas
+haversine
+
+# For Google Sheets integration (to be used later)
+gspread
+google-auth-oauthlib

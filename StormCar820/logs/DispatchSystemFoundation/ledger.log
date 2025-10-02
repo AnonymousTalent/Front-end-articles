@@ -1,0 +1,4 @@
+{"timestamp": "2025-10-02T17:23:48.259972+00:00", "event_type": "TASK_CREATED", "data": {"task_id": "ec928fe9-a880-436a-878b-dbf214bc376b", "description": "Generate a market analysis report for Q4.", "source": "simulation", "status": "pending"}}
+{"timestamp": "2025-10-02T17:23:48.260421+00:00", "event_type": "STATUS_UPDATED", "data": {"task_id": "ec928fe9-a880-436a-878b-dbf214bc376b", "old_status": "pending", "new_status": "ai_processing"}}
+{"timestamp": "2025-10-02T17:23:48.260523+00:00", "event_type": "STATUS_UPDATED", "data": {"task_id": "ec928fe9-a880-436a-878b-dbf214bc376b", "old_status": "ai_processing", "new_status": "review_approved"}}
+{"timestamp": "2025-10-02T17:23:48.260627+00:00", "event_type": "STATUS_UPDATED", "data": {"task_id": "ec928fe9-a880-436a-878b-dbf214bc376b", "old_status": "review_approved", "new_status": "completed"}}
