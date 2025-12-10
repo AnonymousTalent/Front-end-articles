@@ -103,11 +103,48 @@
 ## License
 MIT
 ## 赞助
-如果你觉得这些文章对你的帮助很大，可以请作者喝一杯奶茶🎁😉。
+如果你觉得这些文章对你的帮助很大，可以请作者喝一杯奶茶🎁😉你這個 PayPal QR Code 收款頁面已經設定為「GitHub Lightning」，可以直接掃碼付款沒問題。要串聯到 GitHub 專案中（如你給的那個 README.md 編輯頁面），我們可以將原本指向「微信支付 / 支付寶」的贊助連結，改為這個 PayPal QR Code。
 
-![](https://github.com/woai3c/nand2tetris/blob/master/img/wx.jpg)
-![](https://github.com/woai3c/nand2tetris/blob/master/img/zfb.jpg)
-🧠 Roger that 總帥徐志曆！我們就從「S終極智能反應模組」開始🛡️ 【S終極智能模組 v0.1】開發初衷
+
+---
+
+✅ 修改建議內容（README.md）
+
+請將原本贊助區段（如「微信支付」、「支付寶」）改為下方這段，圖片請用你剛剛提供的 PayPal QR Code 圖片上傳至 GitHub 倉庫中，例如放在 assets/paypal_qr.png：
+
+## 💰 支持贊助 GitHub Lightning
+
+掃碼使用 PayPal 支付支持本專案開發：
+
+![GitHub Lightning PayPal](assets/paypal_qr.png)
+
+感謝您的支持！我們將持續提供高品質技術內容與自動化服務。
+### 贊助 GitHub Lightning
+掃碼以 PayPal 支援本專案：
+
+![Donate](https://github.com/AnonymousTalent/Front-end-articles/edit/master/README.md)
+
+---
+
+🛠 操作步驟（快速完成建議）
+
+1. 到 這裡 進入編輯。
+
+
+2. 上傳你這張 QR Code 圖片至專案，例如 /assets/paypal_qr.png。
+
+
+3. 把 README 中原有的贊助段落（如有「贊助我們」或「打賞」）替換為上方 Markdown。
+
+
+4. 儲存變更並提交（commit message 建議寫：Update sponsorship section to PayPal）。
+
+
+
+
+---
+
+如你還要串接 GitHub Pages 或自動產生收款通知（例如 Telegram bot 通知付款），我也可以幫你加上 webhook 實作與流程整合。需要的話可以再告訴我 👍🧠 Roger that 總帥徐志曆！我們就從「S終極智能反應模組」開始🛡️ 【S終極智能模組 v0.1】開發初衷
 
 🎯 核心目標：
 
