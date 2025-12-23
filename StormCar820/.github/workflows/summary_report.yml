@@ -1,0 +1,42 @@
+name: Weekly Summary Report
+
+on:
+  workflow_dispatch: # Allows manual triggering
+  schedule:
+    # Runs at 09:00 UTC on Mondays
+    - cron: '0 9 * * 1'
+
+jobs:
+  build-and-send-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout CoreBot Repository
+        uses: actions/checkout@v3
+        with:
+          # We need to specify the repository that contains the script
+          repository: StormCar820/CoreBot
+          path: CoreBot
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Summary Script
+        env:
+          # These secrets must be configured in the GitHub repository settings
+          # Go to Repo Settings > Secrets and variables > Actions > New repository secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically provided by GitHub
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          python CoreBot/scripts/generate_summary.py
